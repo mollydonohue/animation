@@ -20,3 +20,12 @@ body {
 #text_area > h1 {
   margin: 0;
 }
+
+.fade-in {
+    opacity: 1  !important;
+    transition: all 1s ease-out;
+}
+
+#footer {
+  padding-bottom: 200px;
+}
