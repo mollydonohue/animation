@@ -36,8 +36,7 @@ $(document).ready(function(){
 		duration: '100%'
 
 	})
-	// this is the animation of the parallax effect 
-	// animate background image from -30% 
+	// you are passing a timeline with two tweens on it
 	.setTween(parallaxTl)
 	.addTo(controller);
 
