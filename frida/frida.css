@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 #text_area {
@@ -19,6 +20,13 @@ body {
   padding-bottom: 200px;
 }
 
-h1 {
-  padding-top: 200px;
+h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+h2 {
+  padding-top: 20px;
+  font-size: 24px;
 }

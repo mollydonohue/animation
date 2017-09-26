@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var imgheight = document.getElementById('img_area').clientHeight;
+  var imgheight = document.getElementById('img_area').clientHeight + 5;
   var text = document.getElementById("text_area").setAttribute("style","height:" + imgheight + "px");
   var animate = ["woman", "man", "banner", "birds"];
   
@@ -16,12 +16,12 @@ $(document).ready(function() {
       triggerElement: `#${animate[item]}_text`
     })
     .setClassToggle(`#${animate[item]}`, 'fade-in') // add class to project01
-    .addIndicators({
+    /*.addIndicators({
       name: `${animate[item]} fade scene`,
       colorTrigger: 'black',
       indent: 200,
       colorStart: '#75C695'
-    })
+    })*/
     .addTo(controller);
   }
 });
