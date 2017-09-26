@@ -2,18 +2,7 @@ body {
   margin: 0;
 }
 
-#main > div {
-  width: 47%;
-}
-
-#img_area {
-  float: left;
-  padding-right: 20px;
-}
-
 #text_area {
-  float: right;
-  padding-right: 20px;
   overflow: scroll;
 }
 

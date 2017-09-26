@@ -8,8 +8,14 @@ $(document).ready(function() {
   var imgheight = document.getElementById('img_area').clientHeight;
   var text = document.getElementById("text_area").setAttribute("style","height:" + imgheight + "px");
 
-
   var controller = new ScrollMagic.Controller();
+  // pin the intro
+  var pinIntroScene = new ScrollMagic.Scene({
+    triggerElement: '#text_area',
+    triggerHook: 0,
+  })
+  .setPin('#intro', {pushFollowers: false})
+  .addTo(controller);
 
   var bannerScene = new ScrollMagic.Scene({
     triggerElement: '#banner_text'
